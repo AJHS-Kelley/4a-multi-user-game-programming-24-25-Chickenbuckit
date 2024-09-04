@@ -10,7 +10,7 @@ class extraLives {
     {
         livesRemaining --;
     }
-    else if (points <= 10001 && points >= 10000)
+    else if (points <= 10001 && points > 10000)
     {
         livesRemaining ++;
     }
