@@ -1,4 +1,4 @@
-//extra lives, Casey Boyce, v0.0
+//extra lives, Casey Boyce, v0.1
 class extraLives {
   static void Main() {
     int livesRemaining = 3
@@ -22,5 +22,6 @@ class extraLives {
     {
         Console.WriteLine("3Rr0R");
     }
+    Console.WriteLine("You have " + livesRemaining + "lives left\n");
   }
 }
