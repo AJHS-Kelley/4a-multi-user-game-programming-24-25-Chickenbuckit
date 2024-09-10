@@ -1,4 +1,4 @@
-//Strings, Casey Boyce, v0.0
+//Strings, Casey Boyce, v0.1
 using System;
 class strings {
   static void Main() {
@@ -22,5 +22,23 @@ class strings {
     //usefull string methods
     consolt.WriteLine(greating.ToLower)//all to lowercase
     consolt.WriteLine(goodbye.ToUpper)//ALL TO UPPERCASE
+    //usful concatenation "Con-Cat-Uh-Nation"
+    string comboString = greeting + goodbye;
+    consolt.WriteLine(comboString);
+    //usful concatenation method #2
+    string comboString2 = string.Concat(greeting, goodbye);
+    consolt.WriteLine(comboString2);
+    //string interpolation -- substatuting variatable into strings.
+    string comboString3 = $"My greeting is {greeting} and my goodbye is {goodbye}.\n"
+    consolt.WriteLine(comboString3);
+    //substitutiong Valuiables into strings method #2
+    consolt.WriteLine("my greeting is " + greeting + "and my goodbye is " + goodbye + ".\n")
+    //accessing parts of strings
+    //index is a spicific location of a charicter in a string
+    //strings always start a 0
+    consolt.WriteLine(goodbye[0]);//Print the charictar with the 0 index.
+    consolt.WriteLine(goodbye[4]);//Replace the 5 charictar with x
+    //where is it in my string?
+    consolt.WriteLine(greeting.IndecOf("e"));
   }
 }
