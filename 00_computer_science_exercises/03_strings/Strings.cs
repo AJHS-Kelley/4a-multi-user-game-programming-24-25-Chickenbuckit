@@ -1,4 +1,4 @@
-//Strings, Casey Boyce, v0.1
+//Strings, Casey Boyce, v0.2
 using System;
 class strings {
   static void Main() {
@@ -39,6 +39,14 @@ class strings {
     consolt.WriteLine(goodbye[0]);//Print the charictar with the 0 index.
     consolt.WriteLine(goodbye[4]);//Replace the 5 charictar with x
     //where is it in my string?
-    consolt.WriteLine(greeting.IndecOf("e"));
+    consolt.WriteLine(greeting.IndexOf("e"));
+    //finding parts of a string
+    string fullName = "Justin Beaver";
+    //what letter?
+    int lastInitial = name.IndexOf("B");
+    //finding the substring
+    string lastName = fullName.substring(lastInitial):
+    //print it
+    Console.WriteLine(lastName)
   }
 }
