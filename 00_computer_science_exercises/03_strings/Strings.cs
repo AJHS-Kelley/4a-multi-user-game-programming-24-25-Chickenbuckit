@@ -45,8 +45,8 @@ class strings {
     //what letter?
     int lastInitial = name.IndexOf("B");
     //finding the substring
-    string lastName = fullName.substring(lastInitial):
+    string lastName = fullName.Substring(lastInitial);
     //print it
-    Console.WriteLine(lastName)
+    Console.WriteLine(lastName);
   }
 }
