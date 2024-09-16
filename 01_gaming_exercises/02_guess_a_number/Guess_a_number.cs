@@ -8,11 +8,11 @@ class GuessANumber {
     int maxGuess = 7; // 7 guesses
     //start of random number generator                                      WHILE LOOP
     int secrateNumber;
-    Console.WriteLine('Do You need "easy" mode or do you want "hard" mode\nYou have 7 guesses ether way');
+    Console.WriteLine("Do You need \"easy\" mode or do you want \"hard\" mode\nYou have 7 guesses ether way");
     mode = Console.ToLower(readline());
     if (mode == "easy")
     {
-        int secrateNumber = rnd.Next(999); //generate from 0 to 998
+        secrateNumber = rnd.Next(999); //generate from 0 to 998
         secrateNumber++;//999*
         int x = 1;
         int y = 999;
@@ -25,13 +25,13 @@ class GuessANumber {
     }
     while (numGuess < maxGuess)
     {
-                                                                            //start of player input code
+        //start of player input code
         Console.WriteLine("Pick a number from any where from "+x+"  and  "+y+);
         int guess = Consolt.ToInt32(readline());
         Consolt.Writeline("You guessed: "guess"\n");
                                                                             //++ to numGuess
         numGuess++;
-                                                                            //start of comparing number code
+                                                                        //start of comparing number code
                                                                             //start of matching, less, or more result code
         if (guess < secrateNumber)
         {
