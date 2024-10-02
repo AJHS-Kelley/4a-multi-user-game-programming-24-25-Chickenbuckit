@@ -31,7 +31,7 @@ class GuessANumber {
         Consolt.Writeline("You guessed: "guess"\n");
                                                                             //++ to numGuess
         numGuess++;
-                                                                        //start of comparing number code
+                                                                            //start of comparing number code
                                                                             //start of matching, less, or more result code
         if (guess < secrateNumber)
         {
@@ -48,7 +48,7 @@ class GuessANumber {
             break; // keword to stop a loop
         }
     }
-                                                                                //if true print "YOU LOSE" and exit
+                                                                            //if true print "YOU LOSE" and exit
     if (numGuess == maxGuess)
     {
         Console.WriteLine("                     YOU LOSE .u.")
@@ -57,6 +57,5 @@ class GuessANumber {
     {
         Console.WriteLine("3Rr0R")
     }
-    exit;
   }
 }
