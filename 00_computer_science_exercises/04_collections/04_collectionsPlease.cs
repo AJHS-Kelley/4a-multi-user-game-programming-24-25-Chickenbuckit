@@ -1,4 +1,4 @@
-//Collections example, Casey Boyce, v0.1
+//Collections example, Casey Boyce, v0.2
 using System;
 using System.Linq;
 using System.Collections;
@@ -13,13 +13,20 @@ in C# an collections is known as an ARRAY.
 -- Position of the element is called an INDEX
 -- First element index is 0
     */
-    // Declaring  and defining an array
+        // Declaring  and defining an array
     string[] breakfastFoods = {"Cereal", "Bacon", "Pancakes", "Milk"};
     int[] testScore = {15, 64, 80, 90, 100};
     double[] GPA = {0.31D, 2.37D, 1.75D, 4.00D};
-    // Print array contents -- All elements on a single line
+        // Print array contents -- All elements on a single line
+    Console.WriteLine("The elements of each array are:\n");
+    Console.WriteLine("Breakfast foods:\n" + String.Join(",", breakfastFoods));
+    Console.WriteLine();// Print an empty line at end
+        // Print array contents -- All elements on sepret lines
     Console.WriteLine("The elements of each array are:\n");
     Console.WriteLine("Breakfast foods:\n" + String.Join("\n", breakfastFoods));
     Console.WriteLine();// Print an empty line at end
+        // How long is my array AKA deturmining the length
+    Console.WriteLine("The length of the breakfastFoods array is: " + breakfastFoods.Length);
+    // .Length is also known as a PROPERTY of the array
    } //NEVER DELETE, also only three spaces needed
 } //NEVER DELETE, also always touching left side
