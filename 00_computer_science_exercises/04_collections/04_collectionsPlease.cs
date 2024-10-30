@@ -1,4 +1,4 @@
-//Collections example, Casey Boyce, v0.2
+//Collections example, Casey Boyce, v0.3
 using System;
 using System.Linq;
 using System.Collections;
@@ -28,5 +28,9 @@ in C# an collections is known as an ARRAY.
         // How long is my array AKA deturmining the length
     Console.WriteLine("The length of the breakfastFoods array is: " + breakfastFoods.Length);
     // .Length is also known as a PROPERTY of the array
+        // Accessing elements in the array with the index.
+        Console.WriteLine("the first element in breakfastFoods is: " + breakfastFoods[0]);
+        Console.WriteLine("the first element in testscore is: " + testScore[1]);
+        Console.WriteLine("the first element in GPA is: " + GPA[2]);
    } //NEVER DELETE, also only three spaces needed
 } //NEVER DELETE, also always touching left side
