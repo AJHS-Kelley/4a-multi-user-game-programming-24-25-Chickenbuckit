@@ -1,4 +1,4 @@
-//Collections example, Casey Boyce, v0.5
+//Collections example, Casey Boyce, v0.6
 using System;
 using System.Linq;
 using System.Collections;
@@ -57,5 +57,9 @@ in C# an collections is known as an ARRAY.
     // Console.WriteLine("zooAnimals foods:\n" + String.Join("\n", zooAnimals));
     // Console.WriteLine();// Print an empty line at end
     // Array.Sort will sort the code -- if its an int or double array then it will be sorted into a least to greatest line, for strings it is a A-Z alphabetical sort
+    // finding the MIN, MAX, and SUM for NUMARICAL ONLY arrays.
+    Console.WriteLine("The MINIMUM value for intArr is:" + intArr.Min());
+    Console.WriteLine("The MAXIMUM value for intArr is:" + intArr.Max());
+    Console.WriteLine("The SUM value for intArr is:" + intArr.Sum());
    } //NEVER DELETE, also only three spaces needed
 } //NEVER DELETE, also always touching left side
