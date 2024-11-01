@@ -1,4 +1,4 @@
-//Collections example, Casey Boyce, v0.4
+//Collections example, Casey Boyce, v0.5
 using System;
 using System.Linq;
 using System.Collections;
@@ -31,9 +31,9 @@ in C# an collections is known as an ARRAY.
                 // My example
     Console.WriteLine("The second last line of GPA is : " + GPA[GPA.length - 2]);
     // Changing elements in the array
-    breakfastFoods[3] = "Pilk"
-    testScores[2] = 32
-    GPA[0] = 2.91D
+    breakfastFoods[3] = "Pilk";
+    testScores[2] = 32;
+    GPA[0] = 2.91D;
                     // Print array contents -- All elements on a single line
                 // comment for better run time
     Console.WriteLine("The elements of each array are:\n");
@@ -44,5 +44,18 @@ in C# an collections is known as an ARRAY.
     Console.WriteLine("Breakfast foods:\n" + String.Join("\n", breakfastFoods));
     Console.WriteLine();// Print an empty line at end
     */
+    // Most common 3RR045 while using arrays
+    // Console.WriteLine(breakfastFoods[99]); //ERROR name Index out of bounds -- You tried to contact an item that was not within range of the list, YOU CRIED FOR HELP... BUT NOBODY CAME
+    // testScores[0] = "99" //  ERROR message "Cannot implicitly convert type ___ to ___ -- You tried to make an array have multple diffrent of varitables, your an idiot.
+    // Common array methods -- ways to work with array data
+    // sorting arrays
+    int[] intArr = {82, -19, 54, 0, 89612, 538, 9155}
+    string[] zooAnimals = {"Giraffe", "Penguin", "African wild dog", "Jackle", "Rabbit", "Lion", "Kakapo", "Elephant"}
+    Array.Sort(intArr)
+    Array.Sort(zooAnimals)
+    // Console.WriteLine("The elements of each array are:\n");
+    // Console.WriteLine("zooAnimals foods:\n" + String.Join("\n", zooAnimals));
+    // Console.WriteLine();// Print an empty line at end
+    // Array.Sort will sort the code -- if its an int or double array then it will be sorted into a least to greatest line, for strings it is a A-Z alphabetical sort
    } //NEVER DELETE, also only three spaces needed
 } //NEVER DELETE, also always touching left side
