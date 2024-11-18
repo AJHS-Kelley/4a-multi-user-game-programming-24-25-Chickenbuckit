@@ -102,7 +102,6 @@ in C# an collections is known as an ARRAY.
     // newList.RemoveRange(4, newlit.Length - 1);
     // Does the ArrayList contain value?
     // .Contains(value) if true then it is in the list, if false then no
-    new playerInventory = ArrayList()
     var playerInventory = ArrayList()
         {
             "Kile", "Finger", "Knife", "Raipier", "Burger", "Lighter"
